@@ -1,0 +1,22 @@
+{
+  "name": "MyPokedex_lp",
+  "version": "1.0.0",
+  "description": "front techs homework #1",
+  "main": "index.html",
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siriwanp/MyPokedex_lp.git"
+  },
+  "author": "Siriwan Choosrion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siriwanp/MyPokedex_lp/issues"
+  },
+  "homepage": "https://github.com/siriwanp/MyPokedex_lp#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
