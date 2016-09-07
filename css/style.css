@@ -1,0 +1,82 @@
+header{
+	height:145px;
+	background-color: #FFF;
+      }
+body, input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  color: #FFF;
+  text-align: justify;
+  line-height: normal;
+  font-smoothing: antialiased;
+}
+li{
+	color:#000}
+	ol{
+		color:#000;
+		 font-size: 12pt;}
+#list {
+  position: relative;
+}
+#list .new {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  clear: both;
+  height: 100px;
+  background: #222;
+  margin-top:145px;
+}
+#list .new #new {
+  float: left;
+  width: calc(100% - 100px);
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  line-height: 50px;
+  text-indent: 25px;
+}
+#list .new #new::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#list .new button {
+  cursor: pointer;
+  float: right;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  background: #111111;
+  font-size: 50pt;
+  color: #FFF;
+}
+#list .list {
+  position: relative;
+  top: 100px;
+}
+#list .list .item {
+  clear: both;
+  height: 50px;
+}
+#list .list .item input {
+  cursor: default;
+  float: left;
+  width: calc(100% - 150px);
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  text-indent: 25px;
+}
+img{
+ width:300px; height: 145px
+}
+div,li{margin:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
