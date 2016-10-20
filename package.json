@@ -1,7 +1,7 @@
 {
   "name": "MyPokedex_lp",
   "version": "1.0.0",
-  "description": "front techs homework #2",
+  "description": "front techs homework #3",
   "main": "index.html",
   "scripts": {
     "build": "./node_modules/.bin/webpack --display-error-details",
@@ -20,10 +20,16 @@
   "homepage": "https://github.com/siriwanp/MyPokedex_lp#readme",
   "devDependencies": {
     "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
     "http-server": "^0.9.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }

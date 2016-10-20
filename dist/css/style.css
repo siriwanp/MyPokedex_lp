@@ -2,6 +2,9 @@ header{
 	height:145px;
 	background-color: #FFF;
       }
+  p{
+    color: #000;
+  }
 body, input {
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
@@ -56,6 +59,33 @@ li{
   font-size: 50pt;
   color: #FFF;
 }
+button {
+  cursor: pointer;
+  float: right;
+  width: 100px;
+  height: 102px;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0.1;
+  background: #111111;
+  font-size: 50pt;
+  color: #FFF;
+}
+#new {
+  float: left;
+  width: calc(100% - 104px);
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0.1;
+  background: transparent;
+  line-height: 50px;
+  text-indent: 25px;
+   background: #111111;
+}
+
 #list .list {
   position: relative;
   top: 100px;
